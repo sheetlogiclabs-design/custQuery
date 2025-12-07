@@ -13,7 +13,7 @@ document.getElementById("dataForm").addEventListener("submit", async function (e
 
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbz0HGEwNrlypNAHlB51b7vaACi7K4-xFpeJZXmc0wP5CjDosI3EZftWjCiUuW4RGoE9Hw/exec",
+      "https://script.google.com/macros/s/AKfycbyk_2ntqWScl3ay4Y4kBPh5f0ZYBMQJjt2D_THCyVrtQjoNgcNRCD97L0ogybTd5CecNw/exec",
       {
         method: "POST",
         mode: "no-cors",
@@ -30,3 +30,4 @@ document.getElementById("dataForm").addEventListener("submit", async function (e
     console.error(error);
   }
 });
+
